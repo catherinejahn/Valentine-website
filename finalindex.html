@@ -17,7 +17,7 @@ body {
   display:flex;
   align-items:center;
   justify-content:center;
-  background: linear-gradient(120deg, #ffeeo6, #ff9aa2);
+  background: linear-gradient(135deg, #ffeeo6, #ff9aa2);
   background: linear-gradient(-45deg,#ff9a9e,#fad0c4,#fbc2eb,#a18cd1);
   background: linear-gradient(135deg, #ffeeo6, #ff9aa2);
   background-size:400% 400%;
@@ -186,7 +186,7 @@ yesBtn.addEventListener("click", () => {
 function createHeart(){
   const heart=document.createElement("div");
   heart.className="heart";
-  heart.innerHTML=Math.random()>0.5?"❤️":"💗";
+  heart.innerHTML=Math.random()>0.5?"❤️":"💗":"🩷":"💖":"✨️";
   heart.style.left=Math.random()*100+"vw";
   heart.style.fontSize=(Math.random()*22+14)+"px";
   heart.style.animationDuration=(Math.random()*3+4)+"s";
